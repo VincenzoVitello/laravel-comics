@@ -115,6 +115,34 @@
   cursor: pointer;
 }
 
+.blue_footer {
+  background-color: #0c7cec;
+  color: white;
+  text-transform: uppercase;
+  padding: 20px;
+}
+
+.blue_footer .blue_footer_card {
+  display: flex;
+  align-items: center;
+  font-size: 13px;
+}
+
+.blue_footer .blue_footer_card img {
+  width: 80px;
+  height: 80px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.blue_cards_container {
+  width: 1000px;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
