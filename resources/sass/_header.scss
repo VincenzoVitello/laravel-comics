@@ -1,0 +1,31 @@
+.ms_blue_banner_top{
+    background-color: #0c7cec;
+    padding: 5px;
+    display: flex;
+    justify-content: flex-end;
+    color: white;
+    text-transform: uppercase;
+    div{
+        margin: 0 20px;
+    }
+}
+.ms_nav_bar{
+    display: flex;
+    justify-content: center;
+    width: 1200px;
+    margin: auto;
+    padding: 5px;
+    ul{
+        list-style-type: none;
+        display: flex;
+        justify-content: space-around;
+        align-self: center;
+        li{
+            margin: 0 20px;
+            a{
+                text-decoration: none;
+                color: #1c1c1c;
+            }
+        }
+    }
+}
